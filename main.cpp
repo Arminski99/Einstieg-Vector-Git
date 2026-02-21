@@ -50,6 +50,7 @@ int main() {
     for (int i = 0; i < 4; i++) {
 
         cout << students[i].name << endl;
+        cout << students[i].note << endl;
         
         if (students[i].note < 4.0) {
 
